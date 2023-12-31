@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.funfunfunny",
+    "module": "ClassGuard",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "3.0.9"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ClassGuard-1.0.1.jar",
+          "url": "ClassGuard-1.0.1.jar",
+          "size": 40263,
+          "sha512": "98a6903b7513edb34bb5cf77871e1359c04a576dc54678f5e654fb15a73381582b0e1e2040f521c3d86602c5d0fda44332a3ea401e45ddad764274a9ee72757d",
+          "sha256": "0b7082c8fde197d61cdf6f72a80051ee08814baea1b5fe3c9713ec50ae735c8b",
+          "sha1": "dc94aad86c7c6560367ee22677d4d8691a729318",
+          "md5": "07a82afda2ff9cf9ad6d70be7dced520"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "3.0.9"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ClassGuard-1.0.1.jar",
+          "url": "ClassGuard-1.0.1.jar",
+          "size": 40263,
+          "sha512": "98a6903b7513edb34bb5cf77871e1359c04a576dc54678f5e654fb15a73381582b0e1e2040f521c3d86602c5d0fda44332a3ea401e45ddad764274a9ee72757d",
+          "sha256": "0b7082c8fde197d61cdf6f72a80051ee08814baea1b5fe3c9713ec50ae735c8b",
+          "sha1": "dc94aad86c7c6560367ee22677d4d8691a729318",
+          "md5": "07a82afda2ff9cf9ad6d70be7dced520"
+        }
+      ]
+    }
+  ]
+}
