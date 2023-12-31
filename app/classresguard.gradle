@@ -1,4 +1,4 @@
-apply plugin: "class-res-guard"
+apply plugin: "com.github.funfunfunny.ClassGuard"
 
 //以下均为非必须，根据自己需要配置即可
 classResGuard {

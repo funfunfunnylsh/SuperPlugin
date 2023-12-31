@@ -10,7 +10,7 @@ publishing {
             from components.java
             groupId 'com.github.funfunfunny'
             artifactId 'ClassGuard'
-            version "1.0.0"
+            version "1.0.1"
         }
     }
     repositories {
@@ -33,7 +33,7 @@ compileKotlin {
 task copyJavaTemplates(type: Copy) {
     from 'src/main/java-templates'
     into "$buildDir/generated/sources/java-templates/java/main"
-    expand('projectVersion': "1.0.0")
+    expand('projectVersion': "1.0.1")
     filteringCharset = 'UTF-8'
 }
 
