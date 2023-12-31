@@ -6,9 +6,9 @@
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.funfunfunny</groupId>
+  <groupId>com.github.funfunfunnydsx</groupId>
   <artifactId>ClassGuard</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <dependencies>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
