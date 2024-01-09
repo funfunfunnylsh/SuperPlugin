@@ -8,9 +8,9 @@ publishing {
     publications {
         release(MavenPublication) {
             from components.java
-            groupId 'com.github.funfunfunnydsx'
+            groupId 'com.lsh.plugin'
             artifactId 'ClassGuard'
-            version "1.0.1"
+            version "1.0.0"
         }
     }
     repositories {
