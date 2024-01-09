@@ -1,4 +1,4 @@
-apply plugin: "com.github.funfunfunny.ClassGuard"
+apply plugin: "com.lsh.plugin.ClassGuard"
 
 //以下均为非必须，根据自己需要配置即可
 classResGuard {
