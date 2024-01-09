@@ -12,8 +12,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://www.jitpack.io' }
     }
 }
-rootProject.name = "SuperPlugin"
+rootProject.name = "ClassGuard"
 include ':app'
 include ':superplugin'
